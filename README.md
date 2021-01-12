@@ -1,3 +1,3 @@
 # Github-Gist-solution
 
-Solution of python (beginner) question i solved in GithubGist
+Solution of online python (beginner) question i solved in GithubGist
