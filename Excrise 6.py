@@ -1,5 +1,5 @@
 # In this fuction we are cutting the string in halve and reseversing the 2nd half while complaing it to the 1st half 
-# If the 1st and 2nd is same it return false and true if its not same
+# If the 1st and 2nd is not same it return false and true if its same
 
 def is_palindrome(a):
     for i in range(0, int(len(a)/2)):
