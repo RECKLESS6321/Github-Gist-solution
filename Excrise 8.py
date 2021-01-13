@@ -25,7 +25,8 @@ while True:
     a = game_dict.get(player)
     b = game_dict.get(comp)
     dif = a - b
-
+    
+    # Bugs may be in this part (not sure)
     if dif in [-1, 2]:
         print('Player Wins.')
     elif dif in [-2, 1]:
