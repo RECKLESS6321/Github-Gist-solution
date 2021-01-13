@@ -10,8 +10,6 @@ while True:
         player = int(input("Please enter a valid number: "))
 
     comp = random.randint(1, 3)
-    while comp == player:
-        comp = random.randint(1, 3)
 
     if comp == 1: 
         comp_choice_name = 'Rock'
@@ -26,7 +24,6 @@ while True:
     b = game_dict.get(comp)
     dif = a - b
     
-    # Bugs may be in this part (not sure)
     if dif in [-1, 2]:
         print('Player Wins.')
     elif dif in [-2, 1]:
