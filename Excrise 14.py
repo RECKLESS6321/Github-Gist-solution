@@ -19,6 +19,4 @@ def list3(x):
     return c
 
 e = list3(b)
-print(f"This is using loops\n {e}")
-
-
+print(f"This is using loops\n{e}")
