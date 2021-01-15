@@ -1,7 +1,7 @@
 def rev_sentence(x):
     b = x.split(' ')
-    c = ' '.join(reversed(b))
-    return c
+    return ' '.join(reversed(b))
+
 
 a = str(input("write something: "))
 d = rev_sentence(a)
