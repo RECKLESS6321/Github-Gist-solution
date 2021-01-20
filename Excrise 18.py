@@ -13,7 +13,7 @@ def compare_number(number, player):
 
 
 if __name__=="__main__":
-    number = str(random.randint(0,9999))
+    number = str(random.randint(1000,9999))
     print(number)
     turn = 0
     print("For every number in the wrong place, you get a cow. For every one in the right place, you get a bull.")
