@@ -17,7 +17,7 @@ def binary_search(sorted_list, target):
         if target > mid_value:
             left_pointer = mid_idx
 
-        else:
+        if target not in sorted_list :
             return "not"
 
 if __name__ == "__main__":
